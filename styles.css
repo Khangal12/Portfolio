@@ -86,6 +86,7 @@ color: #fff;
 .home{
     position: relative;
     width: 100%;
+    min-width: 100vh;
     color: #222435;
     display: flex;
     align-items: center;
@@ -491,7 +492,7 @@ cursor: pointer;
     .home {
         background: #e7eafb;
         justify-content: center;
-        min-width: 0;
+        min-width: auto;
     }
 
     .home-text {
