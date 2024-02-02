@@ -1,45 +1,51 @@
-*{
-    margin:0 ;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
     text-transform: capitalize;
-    font-family:"Poppins", sans-serif ;
+    font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
     width: 0.25rem;
 }
-body::-webkit-scrollbar-track{
+
+body::-webkit-scrollbar-track {
     background: #2c3e50;
 }
-body::-webkit-scrollbar-thumb{
-  background: var(--primary);
+
+body::-webkit-scrollbar-thumb {
+    background: var(--primary);
 }
 
-:root{
-    --bg-color:#e7eafb;
---primary:#01a29c;
---hover:#008170;
-/* Fonts*/
---h1-font:2.2rem ;
---h2-font:1.1rem ; 
---p-font: 0.9rem; 
---spacing:1px ;
---m-1:0.4rem ;
- --m-4:2rem ;
+:root {
+    --bg-color: #e7eafb;
+    --primary: #01a29c;
+    --hover: #008170;
+    /* Fonts */
+    --h1-font: 2.2rem;
+    --h2-font: 1.1rem;
+    --p-font: 0.9rem;
+    --spacing: 1px;
+    --m-1: 0.4rem;
+    --m-4: 2rem;
 }
-html{
+
+html {
     background: #1c2834;
     color: #fff;
 }
-section{
+
+section {
     padding: 50px 100px;
 }
-header{
+
+header {
     position: fixed;
-    width: 100% ;
+    width: 100%;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -48,7 +54,7 @@ header{
     justify-content: space-between;
     background: var(--bg-color);
     padding: 18px 100px;
-    box-shadow: 0 0.5rem 50rem rgba(0,0,0,0.1);
+    box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.1);
 }
 .logo{
     text-transform: uppercase;
@@ -80,7 +86,6 @@ color: #fff;
 .home{
     position: relative;
     width: 100%;
-    min-width: 100vh;
     color: #222435;
     display: flex;
     align-items: center;
@@ -486,10 +491,13 @@ cursor: pointer;
     .home {
         background: #e7eafb;
         justify-content: center;
+        min-width: 0;
     }
 
     .home-text {
         max-width: 410px;
+        margin: 0 auto; /* Add this line to center the text */
+        text-align: center; /* Add this line to center the text */
     }
 
     .contact-content {
