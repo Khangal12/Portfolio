@@ -87,11 +87,11 @@ color: #fff;
     position: relative;
     width: 100%;
     min-width: 100vh;
-    color: #222435;
+    color: #fff;
     display: flex;
     align-items: center;
     background-color: var(--bg-color);
-    background: url(images/pexels-corné-nel-19792518.jpg) no-repeat;
+    background: url(images/pexels-photo-2004161.jpeg) no-repeat;
     background-size: cover;
     background-position: right center;
 
@@ -491,6 +491,7 @@ cursor: pointer;
 
     .home {
         background: #e7eafb;
+        color: #222435;
         justify-content: center;
         min-width: auto;
     }
@@ -498,7 +499,7 @@ cursor: pointer;
     .home-text {
         max-width: 410px;
         margin: 0 auto; /* Add this line to center the text */
-        text-align: center; /* Add this line to center the text */
+        text-align: start; /* Add this line to center the text */
     }
 
     .contact-content {
