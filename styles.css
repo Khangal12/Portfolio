@@ -80,7 +80,7 @@ color: #fff;
 #menu-icon{
     font-size: 2rem;
     cursor: pointer;
-    
+    display: none;
 }
 /*HOME*/
 .home{
