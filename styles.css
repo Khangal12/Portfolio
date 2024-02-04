@@ -326,6 +326,10 @@ font-weight: 400;
     margin-bottom: 10%;
 
 }
+a.btn.cover{
+    margin-left: 10px;
+    display: inline-block;
+}
 .info-box{
     display: flex;
     align-items: center;
@@ -505,6 +509,11 @@ cursor: pointer;
 
     .contact-content {
         flex-direction: column;
+    }
+    a.btn.cover{
+        margin-left: 0; /* Adjust the margin for smaller screens */
+      
+       
     }
 }
 
