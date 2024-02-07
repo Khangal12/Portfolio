@@ -191,9 +191,14 @@
         <div class="contact-form">
           <form
             id="contactForm"
-            action="http://localhost:5500/send-email"
-            method="post"
+            action="https://api.web3forms.com/submit"
+            method="POST"
           >
+            <input
+              type="hidden"
+              name="access_key"
+              value="f375a424-4ed3-4f81-b3cb-1305f425389f"
+            />
             <input
               id="name"
               type="text"
@@ -208,13 +213,7 @@
               placeholder="Enter Your Email"
               required
             />
-            <input
-              id="subject"
-              type="text"
-              name="subject"
-              placeholder="Subject"
-              required
-            />
+
             <textarea
               id="message"
               name="msg"
@@ -233,6 +232,7 @@
     <div class="copyright">
       <p>&#169;All Right Reserved</p>
     </div>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
     <script src="main.js"></script>
   </body>
 </html>
